@@ -3,14 +3,26 @@
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
 }
 
 .chart-container {
-  width: 87%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
 }
 
 .bar {
-  width: 35%;
+  width: 50%;
+}
+
+.spline {
+  width: 50%;
 }

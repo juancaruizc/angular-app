@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TransactionViewComponent } from './transaction-view/transaction-view.component';
 import { ChartModule } from 'angular-highcharts';
+import { RefundViewComponent } from './refund-view/refund-view.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ChartModule } from 'angular-highcharts';
     HeaderComponent,
     FooterComponent,
     TransactionViewComponent,
+    RefundViewComponent,
   ],
   imports: [BrowserModule, ChartModule],
   providers: [],
