@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Chart } from 'angular-highcharts';
-import { barChart } from '../helpers/barChart';
+import { transactionsAreaChartOptions } from '../helpers/transactionsAreaChartOptions';
+import { transactionsBarChartOptions } from '../helpers/transactionsBarChartOptions';
 
 @Component({
   selector: 'app-transaction-view',
@@ -8,5 +9,6 @@ import { barChart } from '../helpers/barChart';
   styleUrls: ['./transaction-view.component.css'],
 })
 export class TransactionViewComponent {
-  barChart = new Chart(barChart);
+  barChart = new Chart(transactionsBarChartOptions);
+  areaSplineChart = new Chart(transactionsAreaChartOptions);
 }
