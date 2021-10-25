@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/juancaruizc/angular-app/issues"
   },
-  "homepage": "https://github.com/juancaruizc/angular-app#readme"
+  "homepage": "https://github.com/juancaruizc/angular-app#readme",
+  "dependencies": {
+    "ng2-charts": "^2.4.3"
+  }
 }
