@@ -10,5 +10,5 @@ import { transactionsBarChartOptions } from '../helpers/transactionsBarChartOpti
 })
 export class TransactionViewComponent {
   barChart = new Chart(transactionsBarChartOptions);
-  areaSplineChart = new Chart(transactionsAreaChartOptions);
+  lineChart = new Chart(transactionsAreaChartOptions);
 }
