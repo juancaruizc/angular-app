@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TransactionViewComponent } from './transaction-view/transaction-view.component';
 import { ChartModule } from 'angular-highcharts';
 import { RefundViewComponent } from './refund-view/refund-view.component';
+import { LostTRComponent } from './lost-t-r/lost-t-r.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { RefundViewComponent } from './refund-view/refund-view.component';
     FooterComponent,
     TransactionViewComponent,
     RefundViewComponent,
+    LostTRComponent,
   ],
   imports: [BrowserModule, ChartModule],
   providers: [],
