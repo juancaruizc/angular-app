@@ -1,0 +1,44 @@
+img {
+  width: 20px;
+  height: 20px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.refresh-view {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.refresh-details {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 35%;
+}
+
+select {
+  height: 36px;
+  width: 225px;
+  border-radius: 2px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
