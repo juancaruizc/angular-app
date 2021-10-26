@@ -37,6 +37,7 @@ p {
 .healthHeader {
   font-size: 28px;
   margin-right: 480px;
+  font-weight: bold;
 }
 
 select {
