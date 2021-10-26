@@ -1,14 +1,15 @@
 section {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .footer-container {
-  border-top: 1px solid grey;
-  width: 85%;
+  border-top: 1px solid #dcdee1;
+  width: 1110px;
 }
 
 p {
-  color: grey;
+  font-size: 11px;
+  color: #58595b;
 }

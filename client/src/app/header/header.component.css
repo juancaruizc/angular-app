@@ -3,15 +3,39 @@ img {
   height: 20px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  /* width: 1440px; */
+}
+
 p {
   font-size: 13px;
 }
 
+.outerHeaderContainer {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* display: flex; */
+  /* align-items: center;
+  flex-direction: column; */
+}
+
+/* .innerHeaderContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} */
+
 .refresh-view {
   display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
   margin-top: 50px;
+  width: 75%;
+  /* justify-content: flex-end; */
 }
 
 .refresh-details {
@@ -19,7 +43,11 @@ p {
   width: 350px;
   justify-content: space-between;
   align-items: center;
-  margin-left: 35%;
+}
+
+.healthHeader {
+  font-size: 28px;
+  margin-right: 480px;
 }
 
 select {
@@ -33,12 +61,14 @@ select {
 
 .dropdown-menu-container {
   display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  width: 75%;
 }
 
 label {
   display: flex;
   flex-direction: column;
   font-size: 12px;
+  margin-right: 60px;
 }

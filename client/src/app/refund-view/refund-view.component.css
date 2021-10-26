@@ -11,18 +11,43 @@
   display: flex;
   width: 50%;
   justify-content: flex-start;
+  align-items: center;
+}
+
+img {
+  height: 14px;
+  width: 14px;
+  margin-left: 6px;
+}
+
+h1 {
+  font-size: 21px;
 }
 
 .chart-container {
-  width: 50%;
   display: flex;
-  justify-content: space-around;
 }
 
 .bar {
-  width: 50%;
+  width: 530px;
+  height: 367px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+  margin-right: 40px;
 }
 
-.spline {
-  width: 50%;
+.line {
+  width: 530px;
+  height: 367px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+section {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-view {
+  width: 78%;
 }

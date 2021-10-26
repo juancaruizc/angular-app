@@ -2,14 +2,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 21px;
 }
 
 .header {
   display: flex;
   width: 50%;
   justify-content: flex-start;
+  align-items: center;
+}
+
+img {
+  height: 14px;
+  width: 14px;
+  margin-left: 6px;
 }
 
 .chart-container {
   width: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+section {
+  width: 2200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
