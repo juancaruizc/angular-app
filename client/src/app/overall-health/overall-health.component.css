@@ -1,0 +1,116 @@
+.company-view {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.company-container {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.topHeader {
+  display: flex;
+  align-items: center;
+}
+
+.i-icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+.companyList {
+  background-color: white;
+  height: 93px;
+  width: 338px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 16px;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 77%;
+}
+
+.greenStatus {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3e7d5;
+}
+
+.innerGreenStatus {
+  border-radius: 20px;
+  height: 16px;
+  width: 16px;
+  background-color: #37aa6f;
+}
+
+.yellowStatus {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf3d7;
+}
+
+.innerYellowStatus {
+  border-radius: 20px;
+  height: 16px;
+  width: 16px;
+  background-color: #f7c137;
+}
+
+img {
+  width: 100px;
+  margin-left: 15px;
+  margin-right: 165px;
+}
+
+.redStatus {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6cbcd;
+}
+
+.innerRedStatus {
+  border-radius: 20px;
+  height: 16px;
+  width: 16px;
+  background-color: #d61536;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 80%;
+  height: 250px;
+}

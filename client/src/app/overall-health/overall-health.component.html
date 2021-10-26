@@ -1,6 +1,28 @@
-<div>
-	<div>
-		<h1>Overall Health</h1>
-		<h2>Overall Health</h2>
+<div class="company-view">
+	<div class="company-container">
+		<div class="headers">
+			<div class="topHeader">
+				<h1>Overall Health</h1>
+				<img class="i-icon" src="../../assets/i-icon.svg"/>
+			</div>
+			<h2>Overall Health</h2>
+		     </div>
+		     <section>
+			     <div class="companyList" *ngFor = "let item of data" >
+				<img src={{item.company_logo}} alt ="logo"/>
+				<div class='greenStatus'>
+				   <div class="innerGreenStatus"></div>
+				</div>
+		  
+				<!-- <div class='yellowStatus' *ngIf="item.company_status.yellow">
+				  <div class="innerYellowStatus"></div>
+			       </div>
+		  
+			       <div class='redStatus'>
+				  <div class="innerRedStatus"></div>
+			      </div> -->
+			     </div>
+		     </section>
 	</div>
+
 </div>

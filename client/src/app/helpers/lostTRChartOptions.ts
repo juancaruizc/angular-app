@@ -6,6 +6,9 @@ export const lostTRChartOptions: Options = {
   },
   title: {
     text: 'By System',
+    style: {
+      fontWeight: 'bold',
+    },
   },
 
   yAxis: {

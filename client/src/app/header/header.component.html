@@ -1,56 +1,59 @@
 <div class="header">
-
-	<div class="refresh-view">
-		<h1>Health Dashboard</h1>
-		<div class="refresh-details">
-			<p>Next refresh: 115s</p>
-			<img src="../../assets/refresh-icon.png" alt="refresh icon"/>
-			<img src= "../../assets//pause-icon.svg" alt="pause icon"/>
-			<p>Last refresh: 5 mins. ago</p>
-		</div>
-
-	</div>
-	<div class="dropdown-menu-container">
-		<label> Filter By Client:
-			<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
-			ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
-			ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
-			    <option value="?" selected="selected"></option>
-			    <option value="0">0</option>
-			    <option value="1">1</option>
-			</select>
-		</label>
-
-		<label> Filter By Area:
-			<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
-			ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
-			ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
-			    <option value="?" selected="selected"></option>
-			    <option value="0">0</option>
-			    <option value="1">1</option>
-			</select>
-		</label>
+   <div class="outerHeaderContainer">
+	   <!-- <div class="innerHeaderContainer"> -->
+		<div class="refresh-view">
+			<h1  class="healthHeader">Health Dashboard</h1>
+			<div class="refresh-details">
+				<p>Next refresh: 115s</p>
+				<img src="../../assets/refresh-icon.png" alt="refresh icon"/>
+				<img src= "../../assets//pause-icon.svg" alt="pause icon"/>
+				<p>Last refresh: 5 mins. ago</p>
+			</div>
 	
-
-		<label> Start Date:
-			<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
-			ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
-			ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
-			    <option value="?" selected="selected"></option>
-			    <option value="0">0</option>
-			    <option value="1">1</option>
-			</select>
-		</label>
-
-		<label> End Date:
-			<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
-			ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
-			ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
-			    <option value="?" selected="selected"></option>
-			    <option value="0">0</option>
-			    <option value="1">1</option>
-			</select>
-		</label>
-
+		</div>
+		<div class="dropdown-menu-container">
+			<label> Filter By Client:
+				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
+				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
+				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
+				    <option value="?" selected="selected"></option>
+				    <option value="0">0</option>
+				    <option value="1">1</option>
+				</select>
+			</label>
+	
+			<label> Filter By Area:
+				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
+				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
+				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
+				    <option value="?" selected="selected"></option>
+				    <option value="0">0</option>
+				    <option value="1">1</option>
+				</select>
+			</label>
+		
+	
+			<label> Start Date:
+				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
+				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
+				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
+				    <option value="?" selected="selected"></option>
+				    <option value="0">0</option>
+				    <option value="1">1</option>
+				</select>
+			</label>
+	
+			<label> End Date:
+				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
+				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
+				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
+				    <option value="?" selected="selected"></option>
+				    <option value="0">0</option>
+				    <option value="1">1</option>
+				</select>
+			</label>
+	   <!-- </div>
+	 -->
 	</div>
+   </div>
 </div>

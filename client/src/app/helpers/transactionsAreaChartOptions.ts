@@ -6,6 +6,9 @@ export const transactionsAreaChartOptions: Options = {
   },
   title: {
     text: 'By Hour',
+    style: {
+      fontWeight: 'bold',
+    },
   },
 
   yAxis: {
