@@ -1,19 +1,19 @@
 <div class="header">
-   <div class="outerHeaderContainer">
+   <div class="container outerHeaderContainer">
 	   <!-- <div class="innerHeaderContainer"> -->
-		<div class="refresh-view">
-			<h1  class="healthHeader">Health Dashboard</h1>
-			<div class="refresh-details">
+		<div class="row refresh-view">
+			<h1  class="col-8 healthHeader">Health Dashboard</h1>
+			<div class="col-4 refresh-details">
 				<p>Next refresh: 115s</p>
 				<img src="../../assets/refresh-icon.png" alt="refresh icon"/>
 				<img src= "../../assets//pause-icon.svg" alt="pause icon"/>
-				<p>Last refresh: 5 mins. ago</p>
+			        <p>Last refresh: 5 mins. ago</p>
 			</div>
 	
 		</div>
-		<div class="dropdown-menu-container">
-			<label> Filter By Client:
-				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
+		<div class="row dropdown-menu-container">
+			<label class="col-3" > Filter By Client:
+				<select  ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
 				    <option value="?" selected="selected"></option>
@@ -22,8 +22,8 @@
 				</select>
 			</label>
 	
-			<label> Filter By Area:
-				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
+			<label class="col-3" > Filter By Area:
+				<select  ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
 				    <option value="?" selected="selected"></option>
@@ -33,7 +33,7 @@
 			</label>
 		
 	
-			<label> Start Date:
+			<label class="col-3" > Start Date:
 				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
@@ -43,8 +43,8 @@
 				</select>
 			</label>
 	
-			<label> End Date:
-				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
+			<label class="col-3" > End Date:
+				<select  ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
 				    <option value="?" selected="selected"></option>
