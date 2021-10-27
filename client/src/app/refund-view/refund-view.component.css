@@ -12,8 +12,8 @@
   width: 50%;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 15px;
 }
-
 img {
   height: 14px;
   width: 14px;
@@ -23,6 +23,7 @@ img {
 h1 {
   font-size: 21px;
   font-weight: bold;
+  margin: 0;
 }
 
 .chart-container {
