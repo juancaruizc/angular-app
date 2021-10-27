@@ -14,10 +14,10 @@ h1 {
 
 .header {
   display: flex;
-  width: 50%;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 15px;
+  padding: 0;
 }
 
 img {

@@ -1,16 +1,12 @@
 <div class="refund-view">
-   <section>
-      <div class="main-view">
-         <div class="header">
-            <h1>Refunds</h1>
-            <img src="../../assets/i-icon.svg"/>
-         </div>
-         <div class="chart-container">
-            <div class="bar" [chart]="barChart"></div>
-            <div class="line" [chart]="lineChart"></div>
-         </div>
-      </div>
-   
-   </section>
-
+   <div class="container">
+     <div class="container header" >
+         <h1>Refunds</h1>
+         <img src="../../assets/i-icon.svg"/>
+       </div>
+       <div class='row'>
+         <div class="col-md-6" style="margin-bottom:20px" [chart]="barChart"></div>
+         <div class="col-md-6" style="margin-bottom:20px" [chart]="lineChart"></div>
+       </div>
+   </div>
 </div>
