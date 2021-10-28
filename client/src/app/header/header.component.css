@@ -24,23 +24,21 @@ p {
   display: flex;
   margin-top: 50px;
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 25px;
 }
 
 .refresh-details {
   display: flex;
-  /* width: 75%; */
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-
-  /* justify-content: center; */
+  padding: 0;
 }
 
 .healthHeader {
   font-size: 28px;
-  /* margin-right: 480px; */
   font-weight: bold;
-  /* width: 150px; */
+  margin-bottom: 15px;
+  padding: 0;
 }
 
 select {
@@ -56,7 +54,6 @@ select {
 .dropdown-menu-container {
   display: flex;
   width: 100%;
-  /* justify-content: center; */
   justify-content: space-between;
 }
 
@@ -64,4 +61,5 @@ label {
   display: flex;
   flex-direction: column;
   font-size: 12px;
+  padding-left: 0;
 }
