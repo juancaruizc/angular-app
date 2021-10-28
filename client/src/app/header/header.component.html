@@ -1,18 +1,16 @@
 <div class="header">
    <div class="container outerHeaderContainer">
-	   <!-- <div class="innerHeaderContainer"> -->
 		<div class="row refresh-view">
-			<h1  class="col-8 healthHeader">Health Dashboard</h1>
-			<div class="col-4 refresh-details">
+			<h1  class="col-sm-8 col-12 healthHeader">Health Dashboard</h1>
+			<div class="col-sm-4 col-12 refresh-details">
 				<p>Next refresh: 115s</p>
 				<img src="../../assets/refresh-icon.png" alt="refresh icon"/>
 				<img src= "../../assets//pause-icon.svg" alt="pause icon"/>
 			        <p>Last refresh: 5 mins. ago</p>
 			</div>
-	
-		</div>
+			</div>
 		<div class="row dropdown-menu-container">
-			<label class="col-3" > Filter By Client:
+			<label class="col-sm-3 col-6" > Filter By Client:
 				<select  ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
@@ -22,7 +20,7 @@
 				</select>
 			</label>
 	
-			<label class="col-3" > Filter By Area:
+			<label class="col-sm-3 col-6" > Filter By Area:
 				<select  ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
@@ -33,7 +31,7 @@
 			</label>
 		
 	
-			<label class="col-3" > Start Date:
+			<label class="col-sm-3 col-6"> Start Date:
 				<select ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
@@ -43,7 +41,7 @@
 				</select>
 			</label>
 	
-			<label class="col-3" > End Date:
+			<label class="col-sm-3 col-6" > End Date:
 				<select  ng-options="v.name for v in variants | filter:{type:2}" ng-change="calculateServicesSubTotal(item)"
 				ng-model="item.selectedVariant" ng-show="item.id==8" name="posterVariants"
 				ng-required="item.id==8 && item.quantity > 0" class="ng-pristine ng-valid ng-valid-required">
@@ -52,8 +50,6 @@
 				    <option value="1">1</option>
 				</select>
 			</label>
-	   <!-- </div>
-	 -->
 	</div>
    </div>
 </div>
